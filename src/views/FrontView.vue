@@ -7,8 +7,8 @@
       </div>
       <div class="text-warning text-center">
         <p class="h3">當前使用者 : {{ user.displayName }}</p>
-        <p class="h3">Email : {{ user.email }}</p>
-        <p class="h3">uid : {{ user.uid }}</p>
+        <p class="mb-0">Email : {{ user.email }}</p>
+        <p>uid : {{ user.uid }}</p>
       </div>
     </div>
     <div class="d-flex justify-content-center">
